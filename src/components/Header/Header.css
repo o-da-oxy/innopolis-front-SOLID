@@ -1,0 +1,46 @@
+.header {
+  animation-name: colors;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  display: grid;
+  justify-items: center;
+  font-size: 40px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+@keyframes colors {
+  0% {
+      color: #ff6666;
+  }
+  10% {
+      color: #ff80c4;
+  }
+  20% {
+      color: #5cbed7;
+  }
+  30% {
+      color: #b671fc;
+  }
+  40% {
+      color: #c9559e;
+  }
+  50% {
+      color: #66cb66;
+  }
+  60% {
+      color: #a8e144;
+  }
+  70% {
+      color: #dcdc3a;
+  }
+  80% {
+      color: #ff80ff;
+  }
+  90% {
+      color: #d343d3;
+  }
+  100% {
+      color: #ff6666;
+  }
+}
